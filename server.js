@@ -6,7 +6,7 @@ app.use(express.static('public'));
 // app.get('/', () => {})
 
 
-var server = app.listen(8081, function() {
+var server = app.listen(process.env.PORT || 5000, function() {
     var port = server.address().port;
-    console.log(`Server started at ${server.address()}, ${port}`);
+    console.log(`Server started at ${server}, ${port}`);
 });
