@@ -1,0 +1,23 @@
+{
+    "name": "dk-weds-sid",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sidgupta333/dk-weds-sid.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sidgupta333/dk-weds-sid/issues"
+    },
+    "homepage": "https://github.com/sidgupta333/dk-weds-sid#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
